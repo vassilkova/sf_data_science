@@ -2,11 +2,15 @@
 SF_homework
 
 Оглавление:
-[описание проекта;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#Описание-проекта)
-[какой кейс мы решаем;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#какой-кейс-мы-решаем)
-[краткая информация о данных;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#краткая-информация-о-данных)
-[какие результаты были получены](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#какие-результаты-были-получены)
-[выводы;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#выводы)
+[1. описание проекта;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#Описание-проекта)
+
+[2. какой кейс мы решаем;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#какой-кейс-мы-решаем)
+
+[3. краткая информация о данных;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#краткая-информация-о-данных)
+
+[4. какие результаты были получены](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#какие-результаты-были-получены)
+
+[5. выводы;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#выводы)
 
 ### Описание проекта
 Игра угадывает число за минимальное колиество попыток.
