@@ -1,5 +1,4 @@
-# sf_data_science
-SF_homework
+# Игра "угадай число"
 
 Оглавление:
 
