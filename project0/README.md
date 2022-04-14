@@ -3,10 +3,10 @@ SF_homework
 
 Оглавление:
 [описание проекта;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#Описание-проекта)
-[какой кейс мы решаем;]()
-[краткая информация о данных;]()
-[какие результаты были получены]()
-[выводы;]()
+[какой кейс мы решаем;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#какой-кейс-мы-решаем)
+[краткая информация о данных;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#краткая-информация-о-данных)
+[какие результаты были получены](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#какие-результаты-были-получены)
+[выводы;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#выводы)
 
 ### Описание проекта
 Игра угадывает число за минимальное колиество попыток.
@@ -21,3 +21,6 @@ SF_homework
 
 ### какие результаты были получены
 Алгоритм угадывает ччисло в среднем за 5 попыток
+
+### выводы
+Науччилась оформлять проект, файл readme и выкладывать всё на hithub
