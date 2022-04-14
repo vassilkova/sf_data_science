@@ -2,6 +2,7 @@
 SF_homework
 
 Оглавление:
+
 [1. описание проекта;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#Описание-проекта)
 
 [2. какой кейс мы решаем;](https://github.com/vassilkova/sf_data_science/blob/master/project0/README.md#какой-кейс-мы-решаем)
@@ -27,4 +28,4 @@ SF_homework
 Алгоритм угадывает ччисло в среднем за 5 попыток
 
 ### выводы
-Науччилась оформлять проект, файл readme и выкладывать всё на hithub
+Научилась оформлять проект, файл readme и выкладывать всё на hithub
