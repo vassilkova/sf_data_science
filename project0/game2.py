@@ -1,6 +1,6 @@
 import numpy as np
 
-def random_predict(number:int=1) -> int:
+def random_predict(number=1):
     """Рандомно угадываем число
 
     Args:
@@ -9,25 +9,29 @@ def random_predict(number:int=1) -> int:
     Returns:
         int: Число попыток
     """
-
-    count = 0
-
-    while True:
+    count = 1  # число попыток
+    begin_interval = 0 # начало отрезка угадывания
+    end_interval = 100 # конец отрезка угадывания
+    predict = 50 # попытка угадать число np.random.randint(1,101)
+    
+    while predict != number:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
-        if number == predict_number:
-            break # выход из цикла, если угадали
+        if number > predict:
+            begin_interval = predict+1 # сдвиг начала отрезка 
+        else:
+            end_interval = predict-1 # сдвиг конца отрезка
+        predict=(begin_interval+end_interval)//2    
     return(count)
+
 
 print(f'Количество попыток: {random_predict()}')
 
 
+
 def score_game(random_predict) -> int:
     """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
-
     Args:
         random_predict ([type]): функция угадывания
-
     Returns:
         int: среднее количество попыток
     """
@@ -46,6 +50,5 @@ def score_game(random_predict) -> int:
 
 # RUN
 if __name__ == '__main__':
-    score_game(random_predict)
+   score_game(random_predict)
     
-    print("hello world")
